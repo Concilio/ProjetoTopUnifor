@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/material_blue_grey_900"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="verReview">
+    
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewFoto"
+        android:src="@drawable/ic_charliesheen_1024x775"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Bla bla bla"
+            android:textColor="#ffffff"
+            android:id="@+id/textViewComment"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageViewFoto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/editTextMarca"
+            android:layout_below="@+id/imageViewFoto"
+            android:layout_toRightOf="@+id/editTextModelo"
+            android:layout_toEndOf="@+id/editTextModelo"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:id="@+id/editTextModelo"
+            android:layout_below="@+id/imageViewFoto"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_below="@+id/textViewComment"
+            android:layout_toRightOf="@+id/imageViewFoto"
+            android:rating="2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver Review"
+            android:id="@+id/button"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:background="#554285"
+            android:onClick="verReview" />
+
+    </RelativeLayout>
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

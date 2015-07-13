@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/material_blue_grey_900"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_headphone_icon" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="#ffffff"
+        android:hint="Insira o E-mail"
+        android:paddingLeft="10dp"
+        android:background="@drawable/backwithborder"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Insira sua senha"
+        android:textColorHint="#ffffff"
+        android:paddingLeft="10dp"
+        android:background="@drawable/backwithborder"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/buttonEntrar"
+        android:textColor="#ffffff"
+        android:background="#554285"
+        android:onClick="entrarListView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="@string/editTextRegistro"
+        android:id="@+id/textViewRegistro"
+        android:textColor="#ffffff"
+        android:onClick="registrarConta" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="@string/editTextRecuperarsenha"
+        android:id="@+id/textViewEsqueceuSenha"
+        android:textColor="#ffffff"
+        android:onClick="recSenha" />
+</LinearLayout>
+
+
+
+</ScrollView>
+
+</LinearLayout>
+
+

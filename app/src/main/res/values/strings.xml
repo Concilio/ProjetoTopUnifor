@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">I Like My Headphone</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="editTextRegistro"><u>REGISTRAR-SE</u></string>
+    <string name="editTextRecuperarsenha"><u>ESQUECI MINHA SENHA</u></string>
+    <string name="title_activity_registro">Registrar-se</string>
+    <string name="title_activity_rec_senha">Esqueci Minha Senha</string>
+    <string name="textEmail">E-MAIL*</string>
+    <string name="textNome">NOME*</string>
+    <string name="textSenha">SENHA*</string>
+    <string name="textRecSenha">Digite seu e-mail para reiniciar sua senha e receber por e-mail.</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_enviar_review">EnviarReviewActivity</string>
+    <string name="novo">novo</string>
+    <string name="title_activity_ver_review">VerReviewActivity</string>
+
+
+</resources>

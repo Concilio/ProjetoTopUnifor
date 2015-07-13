@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/material_blue_grey_900"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textRecSenha"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextEmailRecSenha"
+
+        android:hint="@string/textEmail"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/backwithborder"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Senha"
+        android:id="@+id/buttonRecSenha"
+        android:textColor="#ffffff"
+        android:background="#554285"/>
+</LinearLayout>
